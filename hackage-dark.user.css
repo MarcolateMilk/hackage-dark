@@ -1428,7 +1428,7 @@
 
 }
 
-@-moz-document regexp("https://hackage.haskell.org/package/(.+)/docs/src/(.+)") {
+@-moz-document regexp("https://hackage.haskell.org/package/(.+)/src/(.+)") {
 
   pre {
     border: none;
