@@ -438,6 +438,15 @@
     margin-top: 0.5em;
   }
 
+  li pre {
+    display: table;
+    width: 100%;
+  }
+
+  li pre:first-child {
+    margin-top: 0.5em;
+  }
+
   blockquote {
     border-left: 3px solid hsl(208, 21%, 24%);
     background-color: hsl(208, 21%, 17%);
