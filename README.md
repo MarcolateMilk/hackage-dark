@@ -24,7 +24,8 @@ And here's what the syntax highlighting looks like, again showing the [Data.Byte
 ## Installation
 
 1. Install the Stylus add-on for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en/extensions/details/stylus/)
-2. Click [here](https://raw.githubusercontent.com/MarcolateMilk/hackage-dark/master/hackage-dark.user.css)
+2. Install [Fira Sans](https://github.com/mozilla/Fira/releases/latest) (Regular, Semi-Bold and Bold variants) and [Fira Code](https://github.com/tonsky/FiraCode/releases/latest) (Medium and Bold variants)
+3. Click [here](https://raw.githubusercontent.com/MarcolateMilk/hackage-dark/master/hackage-dark.user.css)
 
 ## Copyright
 
