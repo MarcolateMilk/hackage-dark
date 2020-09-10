@@ -447,6 +447,14 @@
     margin-top: 0.5em;
   }
 
+  dd pre:first-child {
+    margin-top: 0.5em;
+  }
+
+  dd pre:last-child {
+    margin-bottom: 1em;
+  }
+
   blockquote {
     border-left: 3px solid hsl(208, 21%, 24%);
     background-color: hsl(208, 21%, 17%);
