@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name       Hackage Dark
 @namespace  https://github.com/MarcolateMilk
-@version    1.0.1
+@version    1.0.2
 @license    BSD-3-Clause
 ==/UserStyle== */
 
@@ -938,7 +938,7 @@
   }
 
   .instances td[colspan = "2"] {
-    border-bottom: 4px solid #1d252C;
+    border-bottom: 4px solid hsl(208, 21%, 14%);
   }
 
   .instances td.src {
