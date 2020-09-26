@@ -1,11 +1,12 @@
 /* ==UserStyle==
 @name       Hackage Dark
 @namespace  https://github.com/MarcolateMilk
-@version    1.0.2
+@version    1.0.3
 @license    BSD-3-Clause
 ==/UserStyle== */
 
-@-moz-document domain("hackage.haskell.org") {
+@-moz-document domain("hackage.haskell.org"),
+  regexp("file:///(.+)/\\.stack-work/dist/(.+)") {
 
   /* @group Fundamentals */
 
@@ -1456,7 +1457,8 @@
 
 }
 
-@-moz-document regexp("https://hackage.haskell.org/package/(.+)/src/(.+)") {
+@-moz-document regexp("https://hackage\\.haskell\\.org/package/(.+)/src/(.+)"),
+  regexp("file:///(.+)/\\.stack-work/dist/(.+)/src/(.+)") {
 
   pre {
     border: none;
